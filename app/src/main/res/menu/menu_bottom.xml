@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="홈"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/bottom_book_list"
+        android:enabled="true"
+        android:title="리스트"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/bottom_setting"
+        android:enabled="true"
+        android:title="설정"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="ifRoom"/>
+</menu>
